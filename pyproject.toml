@@ -10,7 +10,7 @@ repository = "https://github.com/azogue/ha-pvpc-custom"
 [tool.poetry.dependencies]
 python = ">=3.11,<3.13"
 homeassistant = ">=2024.2.0"
-aiopvpc = { git = "https://github.com/alfredoanton82/aiopvpc", branch = "master" }
+aiopvpc = { git = "https://github.com/alfredoanton82/aiopvpc" }
 
 [tool.poetry.dev-dependencies]
 pre-commit = ">=2.2.0"
